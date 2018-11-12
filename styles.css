@@ -1,0 +1,90 @@
+
+
+body {
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+background-color: white;
+
+
+}
+
+
+nav {
+
+height: 90px;
+background-color: #2F9599;
+color: red;
+display: flex;
+justify-content: space-between
+
+
+
+
+
+
+
+
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height:   30px;
+
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+
+
+nav a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none; 
+ padding-right:15px;
+ padding-left:15px;
+
+}
+
+
+nav li a:hover{
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+
+
+.accroche {text-align: center;}
+
+.textimage { display: flex; 
+align-items: center;}
+
+
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+footer img {
+  height: 40px;
+    padding: 0 3px 0 3px;
+
+}
